@@ -2,139 +2,152 @@
 <html>
     <head>
         <link rel="stylesheet" href="styles.css"/>
+        <title>Фотки за сотку</title>
     </head>
     <body>
         <header>
-            <a href="testcss.html"><img class="logo" src="hotdog-logo.png" alt="логотип"/></a>
+            <img class="logo" src="img/logo.png" alt="логотип"/>
             <menu>
-                <a href="url">Фото</a>
-                <a href="url">Видео</a>
-                <a href="url">Прайс</a>
-                <a href="url">Контакты</a>
+                <a href="#top">Наверх</a>
+                <a href="#reviews">Отзывы</a>
+                <a href="#author">Об авторе</a>
+                <a href="#gallery">Галерея</a>
+                <a href="#purchase">Заказать</a>
             </menu>
         </header>
-        <div class="invis-menu"></div>
-        <picture>
-            <!-- <source media="(max-width: 800px)" srcset="firewatch-800w.jpg"/>
-            <source media="(max-width: 1200px)" srcset="firewatch-1200w.jpg"/>
-            <source media="(min-width: 1201px)" srcset="firewatch-1900w.jpg"/> -->
-            <source media="(max-width: 800px)" srcset="firewatch-cropped.jpg"/>
-            <source media="(min-width: 801px)" srcset="firewatch-full.jpg"/>
-            <img class="adaptive", src="firewatch-full.jpg" alt="Описание"/>
-        </picture>
-        <div class="reviews-place">
-            <div class="review">
-                <h2>Привет человек привет человек</h2>
-                <p> привет человек привет человек привет человек привет человек  привет человек привет человек привет человек</p>
-            </div>
-            <div class="review">
-                <h2>Привет человек привет человек</h2>
-                <p> привет человек привет человек привет человек привет человек  привет человек привет человек привет человек</p>
-            </div>
-        </div>
         <main>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <!-- <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article>
-        <article>
-            <p>
-                Текст на <i>странице</i> со <a href="https://ya.ru/">ссылкой</a>
-            </p>
-        </article> -->
+            <div class="invis-menu"></div>
+            <a id="top" class="inside-link"></a>
+            <picture>
+                <source media="(max-width: 600px)" srcset="img/adaptive-cropped.avif"/>
+                <source media="(min-width: 601px)" srcset="img/adaptive-full.avif"/>
+                <img class="adaptive", src="adaptive-full.jpg" alt="Фото двух людей на закате"/>
+            </picture>
+            <section class="reviews">
+                <a id="reviews" class="inside-link" ></a>
+                <h2>Отзывы</h2>
+                <div class="reviews-row">
+                    <div class="review">
+                        <p class="name">Мамардашвили М., Тольятти</p>
+                        <p class="review-text">
+                            <span class="quote">« </span>Прекрасный фотограф, а как человек так себе.
+                        </p>
+                    </div>
+                    <div class="review">
+                        <p class="name">Сартр Ж., Самара</p>
+                        <p class="review-text"><span class="quote">« </span>Продам гараж.</p>
+                    </div>
+                </div>
+                <div class="reviews-row">
+                    <div class="review">
+                        <p class="name">Фуко М., Новокуйбышевск</p>
+                        <p class="review-text"><span class="quote">« </span>Пока ждал фотки со свадьбы, успел развестись, 10/10.</p>
+                    </div>
+                    <div class="review">
+                        <p class="name">Дебор Г., Сызрань</p>
+                        <p class="review-text"><span class="quote">« </span>Юбилей превратился в пьяную драку, а фотографии в вещественные доказательства.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="author">
+                <a id="author" class="inside-link"></a>
+                <h2>Об авторе</h2>
+                <img class="author" src="img/author.png" alt="автор"/>
+                <p class="author">
+                    <span class="quote">« </span>
+                    Bee Movie
+                    By Jerry Seinfeld
+
+                    NARRATOR:
+                    (Black screen with text; The sound of buzzing bees can be heard)
+                    According to all known laws
+                    of aviation,
+                    :
+                    there is no way a bee
+                    should be able to fly.
+                    :
+                    Its wings are too small to get
+                    its fat little body off the ground.
+                    :
+                    The bee, of course, flies anyway
+                    :
+                    because bees don't care
+                    what humans think is impossible.
+                    BARRY BENSON:
+                    (Barry is picking out a shirt)
+                    Yellow, black. Yellow, black.
+                    Yellow, black. Yellow, black.
+                    :
+                    Ooh, black and yellow!
+                    Let's shake it up a little.
+                    JANET BENSON:
+                    Barry! Breakfast is ready!
+                    BARRY:
+                    Coming!
+                    :
+                    Hang on a second.
+                    (Barry uses his antenna like a phone)
+                    :
+                    Hello?
+                </p>
+                </div>
+            </section>
+            <section class="gallery">
+                <a id="gallery" class="inside-link"></a>
+                <h2>Галерея</h2>
+                <div class="media-row">
+                    <div class="media">
+                        <p class="title">Свадьба Пахомовых</p>
+                        <picture>
+                            <source srcset="img/gallery1.avif" type="image/avif"/>
+                            <img src="img/gallery1.jpg" class="media-content"/>
+                        </picture>
+                    </div>
+                    <div class="media">
+                        <p class="title">Юбилей Летовых</p>
+                        <picture>
+                            <source srcset="img/gallery2.avif" type="image/avif"/>
+                            <img src="img/gallery2.jpg" class="media-content"/>
+                        </picture>
+                    </div>
+                </div>
+                <div class="media-row">
+                    <div class="media">
+                        <p class="title">Свадьба Пахомовых</p>
+                        <video controls class="media-content">
+                            <source src="video/video1.webm" type="video/webm"/>
+                            <source src="video/video1.mp4" type="video/mp4"/>
+                            <p>Браузер не поддерживает webm или mp4</p>
+                        </video>
+                    </div>
+                    <div class="media">
+                        <p class="title">Юбилей Летовых</p>
+                        <video controls class="media-content">
+                            <source src="video/video2.webm" type="video/webm"/>
+                            <source src="video/video2.mp4" type="video/mp4"/>
+                            <p>Браузер не поддерживает webm или mp4</p>
+                        </video>                  
+                    </div>
+                </div>
+            </section>
+            <section class="purchase">
+                <a id="purchase" class="inside-link"></a>
+                <h2>Заказать</h2>
+                <div class="list-container">
+                    <ul class="purchase">
+                        <li>Фотосет на свадьбе - 200к</li>
+                        <li>Видеосъемка на свадьбе - 500к</li>
+                        <li>Отдать снимки раньше, чем через полгода - 100к</li>
+                        <li>Приехать трезвым - 200к</li>
+                    </ul>
+                    <p>☎️ Позвоните нам по номеру 8(800)5553535</p>
+                </div>
+                </div>
+            </section>
+            <div class="invis-footer"></div>
         </main>
-        <div class="invis-footer"></div>
-        <footer><p>Копирайт</p></footer>
+        <footer>
+            <p class="footer">©Копирайт</p>
+        </footer>
     </body>
 </html>
